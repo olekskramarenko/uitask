@@ -90,7 +90,7 @@ body {
 .header-burger {
     display: none; 
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
     .menu-item a {
         padding: 0 5px 0 5px;
     }
@@ -371,7 +371,7 @@ body {
     float: left;
     margin-right: 10px;
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
     .about-us-part {
         flex-wrap: wrap;
     }
