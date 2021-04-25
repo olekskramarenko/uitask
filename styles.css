@@ -86,6 +86,12 @@ body {
     background-color: #a7c353;
     color: #ffffff;
 }
+.menu-items li:first-child a:hover{
+    color: rgb(0, 153, 255);
+}
+.menu-items li:first-child a:active{
+    color: rgb(0, 0, 0);
+}
 .menu-item a:hover {
     color: #ffffff;
     background-color: #a7c353;
