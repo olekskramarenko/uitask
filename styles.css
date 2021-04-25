@@ -90,6 +90,9 @@ body {
     color: #ffffff;
     background-color: #a7c353;
 }
+.menu-part .menu-item a:active {
+    color: #000000;
+}
 .menu-items li:last-child a {
     padding: 0 10px 0 0;
 }
@@ -186,6 +189,9 @@ body {
      border-color: rgb(0, 153, 255);
      cursor: pointer;
 }
+.slick-arrow:active {
+    border-color: rgb(0, 0, 0);
+}
 .slick-dots {
     display: flex;
     align-items: center;
@@ -206,6 +212,9 @@ body {
 .slick-dots button:hover {
     cursor: pointer;
     background-color:rgb(0, 153, 255);
+}
+.slick-dots button:active {
+    background-color:rgb(0,0, 0);
 }
 .slick-dots button:focus {
     outline: none;
@@ -310,6 +319,9 @@ body {
 }
 .about-us-part .green-button:hover {
     color: rgb(0, 153, 255);
+}
+.about-us-part .green-button:active {
+    color: rgb(0, 0, 0);
 }
 .about-us-part .our-services {
     max-width: 280px;
@@ -465,6 +477,9 @@ footer {
     color: rgb(0, 153, 255);
     cursor: pointer;
 }
+.footer-column .company-tel a:active {
+    color: rgb(0, 0, 0);
+}
 .footer-column .office-hours {
     font-family: Georgia;
     font-size: 12px;
@@ -504,6 +519,9 @@ footer {
     background-color: rgb(0, 153, 255);
     cursor: pointer;
 }
+.footer-column.social li .icon:active {
+    background-color: rgb(0, 0, 0);
+}
 .footer-column.social li a{
     margin-left: 10px;
     font-family: Georgia;
@@ -518,6 +536,9 @@ footer {
 .footer-column.social li a:hover {
     color: rgb(0, 153, 255);
     cursor: pointer;
+}
+.footer-column.social li a:active {
+    color: rgb(0, 0, 0);
 }
 .footer-column.blog .blog-post{
     margin-top: 20px;
@@ -554,7 +575,10 @@ footer {
     margin-top: 15px;
 }
 .footer-column.blog .blog-post .green-btn:hover {
-    color: rgb(0, 153, 255);;
+    color: rgb(0, 153, 255);
+}
+.footer-column.blog .blog-post .green-btn:active {
+    color: rgb(0, 0, 0);
 }
 .footer-column.contact-form form{
     margin-top: 20px;
@@ -578,6 +602,12 @@ footer {
     background-color: #fff;
 }
 .footer-column.contact-form textarea:hover {
+    background-color: #fff;
+}
+.footer-column.contact-form .input-name:focus,.input-email:focus {
+    background-color: #fff;
+}
+.footer-column.contact-form textarea:focus {
     background-color: #fff;
 }
 .footer-column.contact-form textarea{
@@ -610,6 +640,9 @@ footer {
 .footer-column.contact-form .submit-form:hover {
     background-color: rgb(0, 153, 255);
     cursor: pointer;
+}
+.footer-column.contact-form .submit-form:active {
+    background-color: rgb(0, 0, 0);
 }
 .footer-column.contact-form input,textarea:focus {
     outline: none;
